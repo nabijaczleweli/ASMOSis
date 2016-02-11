@@ -1,0 +1,8 @@
+*
+!.gitignore
+!.travis.yml
+!LICENSE
+!README.md
+!*.sublime-project
+!floppy
+!floppy/**
