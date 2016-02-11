@@ -1,0 +1,29 @@
+{
+	"build_systems":
+	[
+		{
+			"working_dir": "$project_path",
+			"cmd": "make",
+			"name": "Build ASMOSis",
+		}
+	],
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"name": "Floppy source",
+			"path": "floppy"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Build scripts",
+			"path": ".",
+			"file_include_patterns": ["*Makefile"],
+			"folder_exclude_patterns": ["*"]
+		},
+	],
+	"settings":
+	{
+		"tab_size": 2
+	}
+}
