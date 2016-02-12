@@ -7,11 +7,19 @@ cache:
 addons:
   apt:
     packages:
-      - nasm
-#    sources:
-#      - r-packages-precise
+      - autoconf
+
+before_install:
+  - export PATH="$HOME/bin:$PATH"
+  - mkdir -p ~/bin
 
 install:
+  - pushd /tmp && git clone http://repo.or.cz/nasm.git && cd nasm
+  - git reset --hard $(git tag | tail -1)
+  - ./autogen.sh && ./configure && make
+  - cp nasm "$HOME/bin/" && popd
+
+before_script:
   - nasm -v
 
 script:
