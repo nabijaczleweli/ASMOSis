@@ -1,0 +1,18 @@
+sudo: false
+language: generic
+
+cache:
+  apt: true
+
+addons:
+  apt:
+    packages:
+      - nasm
+#    sources:
+#      - r-packages-precise
+
+install:
+  - nasm -v
+
+script:
+  - make
