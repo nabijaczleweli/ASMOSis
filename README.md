@@ -1,4 +1,5 @@
-# ASMOSis
+# ASMOSis (ABANDONED)
+ASMOSis is **ABANDONED**, plz ignore.
 
 ASMOSis is a simple operating system written in the Assembly language, [NASM](http://nasm.us) dialect.
 
