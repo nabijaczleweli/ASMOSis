@@ -1,1 +1,1 @@
-HTML-rendered form [here](https://cdn.rawgit.com/nabijaczleweli/ASMOSis/pages/index.html).
+HTML-rendered form [here](https://rawcdn.githack.com/nabijaczleweli/ASMOSis/pages/index.html).
